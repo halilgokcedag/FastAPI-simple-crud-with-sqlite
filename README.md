@@ -14,9 +14,11 @@ This simple project is adapted from [SQL (Relational) Databases](https://fastapi
 
 ### Prerequisites
 
-Please req.txt file for the required packages. Install the packages using pip.
+There are two methods for this project. If you want to deploy non-container method go to Method 1. Please see requirements.txt file for the required packages. Install the packages using pip. 
 
-### Deployment
+For the container method go to Method 2.
+
+### Method 1 - Deployment
 
 1. Clone the repo and go to the directory FastAPI-simple-crud-with-sqlite.
 
@@ -28,7 +30,7 @@ uvicorn sql_app.main:app --reload
 3. You can open your browser at http://127.0.0.1:8000/docs .You will be able to interact with your FastAPI application, creating, reading and deleting data from a SQLite database
 
 
-### FastAPI in Containers 
+### Method 2 - FastAPI in Containers 
 
 #### Build the Docker Image
 
